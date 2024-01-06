@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
+*{
+    font-weight: bold;
+    font-family: url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
+    /* background-color:darkolivegreen ; */
+}
+.start{
+    margin: 5vw;
+    padding: 5vw;
+    justify-content: safe;
+    color:black;
+    background-color:bisque;
+    border-radius: 5vw;
+}
+textarea{
+    height: 2vh;
+  padding-right: 10vw;
+  justify-content: center;
+  border-left-style: solid;
+  border-left-width: 0.2vw;
+  margin-top: 0.1vh;
+}
+.name, .mail{
+    padding-right: 2vw;
+}
+.name{
+    padding-top: 2vh;
+}
+.button{
+    margin-left: 60vw;
+  color:rgb(255, 208, 0);
+  background-color:rgb(7, 11, 242); 
+}
+.pad{
+    padding-bottom: 2vh;
+}
+.bgc{
+    background-color: rgb(235, 185, 168);
+   border-radius: 5vw; 
+   border-radius: 20vh;
+}
+.name, .Address, .sex, .mail, .form, .form2{
+    
+    /* text-align: center; */
+    display: flex;
+     justify-content: center; 
+}     
+.sex{
+    padding-right: 20vw;
+}
+.form{
+    padding-right: 15vw;
+    big{
+        padding-right: 60px;
+    }
+}
+.form2{
+    padding-right: 20vw;
+    big{
+        padding-right: 60px;
+    }
+}
+
+body{
+    margin: 1vw;
+    padding-top: 0;
+   
+}
+body{
+    background-color: darkolivegreen;
+}

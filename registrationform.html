@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>REGISTRATION FORM</title>
+    <link rel="stylesheet" href="registration.css" />
+  </head>
+  <body>
+    <div class="start">
+      <a>
+        <big
+          ><big
+            >Greetings this is the registration form which needs to be filled.
+            Applicants are requested to fill out the form as required no
+            discrepancy is requested. The elements to be filled out are self
+            explanatory.</big
+          ></big
+        >
+      </a>
+    </div>
+    <br /><br />
+    <div class="bgc">
+      <div class="name">
+        <span><big> Name : </big></span>
+        <textarea
+          name="name"
+          id="name"
+          cols="30"
+          rows="0"
+          placeholder="enter valid name"
+          pattern="[a-zA-Z\\s]"
+        ></textarea>
+      </div>
+      <br /><br />
+      <div class="mail">
+        <span><big>E-mail : </big></span>
+        <textarea
+          name="mail"
+          id="mail"
+          cols="30"
+          rows="0"
+          placeholder="enter valid mail id"
+        ></textarea>
+      </div>
+      <br /><br />
+      <div class="Address">
+        <span><big>Address : </big></span>
+        <textarea
+          name="Address"
+          id="Address"
+          cols="30"
+          rows="0"
+          placeholder="enter valid adress"
+        ></textarea>
+      </div>
+      <br /><br />
+      <div class="sex">
+        <span><big>SEX :</big></span>
+        <form action="form.java">
+          <label for="Male">
+            <input type="radio" value="Male" name="sex" id="Male" />Male
+          </label>
+          <label for="Female">
+            <input type="radio" value="Female" name="sex" id="Female" />Female
+          </label>
+          <label for="Others">
+            <input type="radio" value="Others" name="sex" id="Others" />Others
+          </label>
+        </form>
+      </div>
+      <br />
+      <div class="form">
+        <big>Do u like this survey ?</big>
+        <select name="form" id="form">
+          placeholder=" Select"
+          <option value="Yes">Yes</option>
+          <option value="No">NO</option>
+          <option value="This is useless">This is useless</option>
+        </select>
+      </div>
+      <br />
+      <div class="form2">
+        <big>Nationality ?</big>
+        <select name="Nationality" id="Nationality">
+          placeholder=" Select"
+          <option value="Indian">Indian</option>
+          <option value="American">American</option>
+          <option value="Pakistani">Pakistani</option>
+          <option value="Others">Others</option>
+        </select>
+      </div>
+      <br /><br /><br />
+      <div class="pad">
+        <button class="button">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>
