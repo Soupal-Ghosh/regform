@@ -36,8 +36,8 @@ textarea{
 }
 .bgc{
     background-color: rgb(235, 185, 168);
-   border-radius: 5vw; 
-   border-radius: 20vh;
+   border-radius: 2vw; 
+   /* border-radius: 20vh; */
 }
 .name, .Address, .sex, .mail, .form, .form2{
     
