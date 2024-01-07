@@ -21,7 +21,7 @@ textarea{
   margin-top: 0.1vh;
 }
 .name, .mail{
-    padding-right: 1vw;
+    padding-right: 2vw;
 }
 .name{
     padding-top: 2vh;
@@ -47,15 +47,19 @@ textarea{
 }     
 .sex{
     padding-right: 20vw;
+    padding-left:5vw
 }
-.form{
-    padding-right: 15vw;
+ .form{
+     padding-left: 15vw;
+
     big{
-        padding-right: 60px;
+        padding-right: 10vw;
     }
+    padding-right: 15vw;
 }
 .form2{
     padding-right: 20vw;
+    padding-left: 5vw;
     big{
         padding-right: 60px;
     }
